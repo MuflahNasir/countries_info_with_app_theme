@@ -1,38 +1,90 @@
-.App {
-  text-align: center;
+.font_family {
+  font-family: Nunito Sans !important;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.font_bold {
+  font-weight: 800 !important;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.element_light {
+  background: hsl(0, 0%, 100%) !important;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.element_dark {
+  background: hsl(209, 23%, 22%) !important;
+}
+.background_dark {
+  background: hsl(207, 26%, 17%) !important;
+}
+.background_light {
+  background: hsl(0, 0%, 98%) !important;
+}
+.text_light {
+  color: hsl(200, 15%, 8%) !important;
+}
+.text_dark {
+  color: hsl(0, 0%, 100%) !important;
+}
+.input_light {
+  color: hsl(0, 0%, 52%) !important;
+}
+.cursor {
+  cursor: pointer;
+}
+.container {
+  margin: 0px;
+  padding: 40px;
+  height: 100vh;
+}
+.home_container {
+  margin: 0px;
+  padding: 40px;
+  height: 100%;
+}
+.search_width {
+  width: 300px;
+}
+.filter_grid {
   display: flex;
-  flex-direction: column;
+  justify-content: end;
+}
+.margin_top {
+  margin-top: 20px;
+}
+.margin_bottom {
+  margin-bottom: 40px;
+}
+.card_width {
+  width: 250px;
+}
+.font_home_title {
+  font-size: 16px;
+}
+.font_home_body {
+  font-size: 14px;
+}
+.subtitle_title {
+  font-weight: 600;
+}
+.detail_container {
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-direction: column !important;
 }
-
-.App-link {
-  color: #61dafb;
+.detail_image {
+  width: 550px;
+  height: 440px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.text_left {
+  text-align: left !important;
+  margin-bottom: 20px;
+}
+.sub_detail_container {
+  display: flex;
+  justify-content: space-between;
+}
+.margin_right {
+  margin-right: 10px !important;
+  margin-bottom: 10px !important;
+}
+.border {
+  margin-top: 40px !important;
 }
